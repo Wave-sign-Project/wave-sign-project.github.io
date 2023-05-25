@@ -100,7 +100,7 @@ h2 {
     color: #555555;
 }
 
-.content_menu a:active {
+.content_menu li a:active {
     text-decoration: none;
     font-size: 14px;
     display: block;
@@ -108,7 +108,7 @@ h2 {
     color: #555555;
 }
 
-.content_menu a:hover {
+.content_menu li a:hover {
     text-decoration: none;
     font-size: 14px;
     display: block;
