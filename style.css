@@ -34,13 +34,13 @@ h2 {
 }
   
 #content {
-    width: 40%;
+    width: 50%;
     line-height: 130%;
     text-align: left;
     margin-right: auto; 
     margin-bottom: 0px; 
     margin-left: auto; 
-    margin-top:150px;
+    margin-top:200px;
 
 }
 
@@ -48,44 +48,55 @@ h2 {
 #content_sidebar {
     font-family: Verdana, Arial, sans-serif;
     color: #555555;
-    float: left;
-    width: 180px;
-    margin-top:-30px;
 }
 
 .content_menu {
-    background-color: #f7f7f7;
-    background-repeat: no-repeat;
-    border-bottom: 10px solid #DDDDDD;
-    border-top: 10px solid #DDDDDD;
-    float: left;
-    clear: right;
-    margin-top: 30px;
-    margin-left: 220px;
-    width: 180px;
-    padding: 0px 0px 10px 10px;
+    max-width:100%;
+    position:fixed;
+    top: 115px;
+    height: 50px;
+    color: #424242;
+    overflow:hidden;
+    background-color: #fff;
+    text-align: center; 
+    margin-left: 200px;
+
 }
 
 .content_menu div {
-    display: block;
     border-bottom: 1px dashed #DDDDDD;
     font-size: 16px;
-    padding: 10px 0px 10px 0px;
 }
 
 .content_menu a {
     text-decoration: none;
     font-size: 14px;
-    display: block;
-    padding: 8px 0px 8px 0px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width:100%;
+
     color: #555555;
+}
+
+.content_menu li {
+    float: left;
+
+}
+.content_menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .content_menu a:visited {
     text-decoration: none;
     font-size: 14px;
     display: block;
-    padding: 8px 0px 8px 0px;
+  
     color: #555555;
 }
 
@@ -93,15 +104,14 @@ h2 {
     text-decoration: none;
     font-size: 14px;
     display: block;
-    padding: 8px 0px 8px 0px;
+  
     color: #555555;
 }
 
 .content_menu a:hover {
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 14px;
     display: block;
-    padding: 8px 0px 8px 0px;
     background-color: #e5e5e5;
     color: #000000;
 }
@@ -134,7 +144,7 @@ h2 {
 table, th, td {
     border: 0px solid black;
     border-collapse: collapse;
-    padding: 3px;
+    padding: 0px;
     font-size: 1em;
 
 }
@@ -179,6 +189,7 @@ li {
 }
 
 
+
 #wrap {
        margin-left: auto;
        margin-right: auto;
@@ -199,6 +210,9 @@ li {
 
 }
 
+
+
+
 #bottom{  
     position:fixed;
     bottom: 0px;
@@ -217,7 +231,7 @@ li {
 
 
 #footer {
-        margin: 40px auto 0 auto;
+    margin: 40px auto 0 auto;
     text-align: center;
     border-top: dotted 1px gray;
     margin-right: auto;
@@ -246,7 +260,6 @@ p { line-height: 1.5 }
     color: blue;
     font-size: 0.8em;
 }
-
 
 
 
