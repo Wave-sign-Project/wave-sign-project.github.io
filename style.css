@@ -227,4 +227,39 @@ li {
 }
 
 
+/**** Footer ***/
+
+
+#footer {
+        margin: 40px auto 0 auto;
+    text-align: center;
+    border-top: dotted 1px gray;
+    padding: 20px 0 20px 0;
+    width: 70%;
+}
+
+#footer p {
+    margin: 0px;
+    padding: 0;
+}
+
+p { line-height: 1.5 }
+
+.supscript {
+    position: relative;
+    bottom: 0.5em;
+    color: red;
+    font-size: 0.8em;
+}
+
+.subscript {
+    position: relative;
+    top: 0.3em;
+    color: blue;
+    font-size: 0.8em;
+}
+
+
+
+
 
