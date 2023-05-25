@@ -4,7 +4,6 @@ body {
     margin: 0px;
     background-repeat: repeat-x;
     font-family: Verdana, Arial, sans-serif;
-        font-size: .8em;
     margin-top: 100px;
     margin-bottom: 0px;
     margin-left:-35px;
@@ -17,7 +16,6 @@ body {
 
 h1 {
     font-family: Verdana, Arial, sans-serif;
-    font-size: 36px;
     color: #5e6266;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -26,7 +24,6 @@ h1 {
     
 h2 {
     font-family: Verdana, Arial, sans-serif;
-    font-size: 20px;
     color: #5e6266;
     width: 100%;
     margin-top: 35px;
@@ -40,7 +37,7 @@ h2 {
     margin-right: auto; 
     margin-bottom: 0px; 
     margin-left: auto; 
-    margin-top:200px;
+    margin-top:240px;
 
 }
 
@@ -48,29 +45,32 @@ h2 {
 #content_sidebar {
     font-family: Verdana, Arial, sans-serif;
     color: #555555;
+    float: left;
 }
 
 .content_menu {
+    background-repeat: no-repeat;
+    float: left;
+    clear: left;
     max-width:100%;
     position:fixed;
-    top: 115px;
+    top: 100px;
     height: 50px;
     color: #424242;
-    overflow:hidden;
     background-color: #fff;
     text-align: center; 
-    margin-left: 220px;
-
+    overflow: hidden;
+    margin-left: 23%;
+    font-size: 1.5em;
 }
 
 .content_menu div {
+    display: block;
     border-bottom: 1px dashed #DDDDDD;
-    font-size: 16px;
 }
 
 .content_menu a {
     text-decoration: none;
-    font-size: 14px;
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
@@ -106,7 +106,7 @@ h2 {
     list-style-type: none;
     text-decoration: none;
     font-size: 14px;
-    display: block;
+    display: inline-block;
     color: #555555;
 }
 
@@ -114,13 +114,13 @@ h2 {
     list-style-type: none;
     text-decoration: none;
     font-size: 14px;
-    display: block;
+    display: inline-block;
     background-color: #e5e5e5;
     color: #000000;
 }
 
+
 #content_main {
-    font-size: 14px;
     line-height: 130%;
     float: left;
     width: 50%;
@@ -148,7 +148,6 @@ table, th, td {
     border: 0px solid black;
     border-collapse: collapse;
     padding: 0px;
-    font-size: 1em;
 
 }
 
@@ -157,7 +156,6 @@ p {
     line-height: 17px;
     margin: 11px 0 10px 0;
     padding: 0px;
-    font-size: 1.0em;
     font-family: Verdana, Arial, sans-serif;
 }
 
@@ -165,7 +163,6 @@ h2 {
     color: #07068b;
     padding:8px;
     padding-left: 0px;
-    font-size: 1.4em;
 }
 h4 {
     color: #000000;
@@ -179,16 +176,12 @@ ul {
     padding:5px;
     padding-left: 20px; 
     list-style-type: circle;
-    font-size: 1.2em;
-
 }
 
 li {
-    font-size: 10px;
     margin:0px;
     padding:2px;
     list-style-type: circle;
-    font-size: .8em;
 }
 
 
@@ -202,14 +195,14 @@ li {
 
 #top {  
     position:fixed;
-    top: 10px;
+    top: 0px;
     left: 0px;
     width: 100%;
     height: 100px;
     color: #424242;
     overflow:hidden;
     background-color: #fff;
-    border-bottom: 1px solid #eee;
+    border-bottom: 0px solid #eee;
 
 }
 
@@ -254,7 +247,6 @@ p { line-height: 1.5 }
     position: relative;
     bottom: 0.5em;
     color: red;
-    font-size: 0.8em;
 }
 
 .subscript {
@@ -265,5 +257,89 @@ p { line-height: 1.5 }
 }
 
 
+
+
+
+
+
+
+
+
+#content_sidebar {
+    font-family: Verdana, Arial, sans-serif;
+    color: #555555;
+    float: left;
+}
+
+.content_menu2 {
+    background-repeat: no-repeat;
+    float: left;
+    clear: left;
+    max-width:100%;
+    position:fixed;
+    top: 150px;
+    height: 50px;
+    color: #424242;
+    background-color: #fff;
+    text-align: center; 
+    overflow: hidden;
+   margin-left: 25%;
+   font-size: 1.5em;
+}
+
+.content_menu2 div {
+    display: block;
+    border-bottom: 1px dashed #DDDDDD;
+}
+
+.content_menu2 a {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width:100%;
+
+    color: #555555;
+}
+
+.content_menu2 li {
+    list-style-type: none;
+    float: left;
+
+}
+.content_menu2 li a {
+    list-style-type: none;
+    display: inline-block;
+    color: color: #555555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.content_menu2 li a:visited {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 14px;
+    display: block; 
+    color: #555555;
+}
+
+.content_menu2 li a:active {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    color: #555555;
+}
+
+.content_menu2 li a:hover {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    background-color: #e5e5e5;
+    color: #000000;
+}
 
 
