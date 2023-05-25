@@ -9,6 +9,7 @@ body {
     margin-left:-35px;
     margin-right:auto;
     padding-bottom: 200px;
+    font-size: 1.0em;
 
 }
 
@@ -329,4 +330,8 @@ p { line-height: 1.5 }
     color: #000000;
 }
 
-
+.separation
+{
+ border-collapse : separate;
+ border-spacing : 15px;
+}
