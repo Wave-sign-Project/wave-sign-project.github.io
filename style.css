@@ -143,45 +143,7 @@ h2 {
     height: 460px;
 }
 
-#footer {
-    margin: 40px auto 0 auto;
-    text-align: center;
-    border-top: dotted 1px gray;
-    padding: 20px 0 20px 0;
-    width: 70%;
-}
 
-#footer_space {
-    line-height: 30px;
-    width: 780px;
-    clear: both;
-    margin-top: 0px; 
-    margin-right: auto; 
-    margin-bottom: 0px; 
-    margin-left: auto; 
-    }
-    
-#footer_right {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 12px;
-    color: #DDDDDD;
-    float: right;
-    text-align: right;
-}
-
-#footer_left {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 12px;
-    color: #999999;
-    float: left;
-    clear: left;
-    text-align: left;
-}
-
-#footer_right a, #footer_right a:visited, #footer_right a:active, #footer_right:hover {
-    text-decoration: none;
-    color: #999999;
-}
 
 table, th, td {
     border: 0px solid black;
