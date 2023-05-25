@@ -7,7 +7,7 @@ body {
         font-size: .8em;
     margin-top: 100px;
     margin-bottom: 0px;
-    margin-left:auto;
+    margin-left:-35px;
     margin-right:auto;
     padding-bottom: 200px;
 
@@ -16,7 +16,7 @@ body {
 
 
 h1 {
-    font-family: arial, helvetica, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 36px;
     color: #5e6266;
     margin-top: 10px;
@@ -25,7 +25,7 @@ h1 {
 }
     
 h2 {
-    font-family: arial, helvetica, sans-serif;
+    font-family: Verdana, Arial, sans-serif;
     font-size: 20px;
     color: #5e6266;
     width: 100%;
@@ -45,8 +45,7 @@ h2 {
 
 
 #content_sidebar {
-    font-family: arial, helvetica, sans-serif;
-    font-size: 14px;
+    font-family: Verdana, Arial, sans-serif;
     color: #555555;
     float: left;
     width: 180px;
@@ -189,6 +188,7 @@ table, th, td {
     border-collapse: collapse;
     padding: 3px;
     font-size: 1em;
+
 }
 
 
@@ -196,7 +196,8 @@ p {
     line-height: 17px;
     margin: 11px 0 10px 0;
     padding: 0px;
-    font-size: .9em;
+    font-size: 1.0em;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 h2 {
