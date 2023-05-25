@@ -31,7 +31,7 @@ h2 {
 }
   
 #content {
-    width: 50%;
+    width: 45%;
     line-height: 130%;
     text-align: left;
     margin-right: auto; 
@@ -97,7 +97,6 @@ h2 {
 .content_menu li a:visited {
     list-style-type: none;
     text-decoration: none;
-    font-size: 14px;
     display: block; 
     color: #555555;
 }
@@ -105,7 +104,6 @@ h2 {
 .content_menu li a:active {
     list-style-type: none;
     text-decoration: none;
-    font-size: 14px;
     display: inline-block;
     color: #555555;
 }
@@ -113,7 +111,6 @@ h2 {
 .content_menu li a:hover {
     list-style-type: none;
     text-decoration: none;
-    font-size: 14px;
     display: inline-block;
     background-color: #e5e5e5;
     color: #000000;
@@ -262,15 +259,6 @@ p { line-height: 1.5 }
 
 
 
-
-
-
-#content_sidebar {
-    font-family: Verdana, Arial, sans-serif;
-    color: #555555;
-    float: left;
-}
-
 .content_menu2 {
     background-repeat: no-repeat;
     float: left;
@@ -320,7 +308,6 @@ p { line-height: 1.5 }
 .content_menu2 li a:visited {
     list-style-type: none;
     text-decoration: none;
-    font-size: 14px;
     display: block; 
     color: #555555;
 }
@@ -328,7 +315,6 @@ p { line-height: 1.5 }
 .content_menu2 li a:active {
     list-style-type: none;
     text-decoration: none;
-    font-size: 14px;
     display: inline-block;
     color: #555555;
 }
@@ -336,7 +322,6 @@ p { line-height: 1.5 }
 .content_menu2 li a:hover {
     list-style-type: none;
     text-decoration: none;
-    font-size: 14px;
     display: inline-block;
     background-color: #e5e5e5;
     color: #000000;
