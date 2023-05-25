@@ -86,13 +86,13 @@ h2 {
 }
 .content_menu li a {
     display: inline-block;
-    color: white;
+    color: color: #555555;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-.content_menu a:visited {
+.content_menu li a:visited {
     text-decoration: none;
     font-size: 14px;
     display: block;
