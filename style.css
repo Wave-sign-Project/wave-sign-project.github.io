@@ -34,12 +34,13 @@ h2 {
 }
   
 #content {
-    width: 780px;
-    text-align: center;
-    margin-top: 0px; 
+    width: 40%;
+    line-height: 130%;
+    text-align: left;
     margin-right: auto; 
     margin-bottom: 0px; 
     margin-left: auto; 
+    margin-top:150px;
 
 }
 
@@ -49,6 +50,7 @@ h2 {
     color: #555555;
     float: left;
     width: 180px;
+    margin-top:-30px;
 }
 
 .content_menu {
@@ -107,9 +109,12 @@ h2 {
 #content_main {
     font-size: 14px;
     line-height: 130%;
-    float: right;
-    width: 560px;
-
+    float: left;
+    width: 50%;
+     margin-top:100px;
+    margin-right: auto;
+    margin-left: auto;
+    display: inline;
 
 }
 
@@ -123,26 +128,6 @@ h2 {
     color: #000000;
 }
 
-#content_right {
-    margin: 0 auto;
-    margin-top: -220px;
-    padding: 5px;
-    display: inline;
-    float: right;
-    width: 265px;
-    height: 260px;
-}
-
-#content_left { 
-    margin-left: 275px;
-    margin-top: -15px;
-    margin-right: 220px;
-    padding: 5px;
-    display: inline;
-    float: left;
-    width: 540px;
-    height: 460px;
-}
 
 
 
