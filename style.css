@@ -37,7 +37,7 @@ h2 {
     margin-right: auto; 
     margin-bottom: 0px; 
     margin-left: auto; 
-    margin-top:240px;
+    margin-top:260px;
 
 }
 
@@ -60,12 +60,13 @@ h2 {
     background-color: #fff;
     text-align: center; 
     overflow: hidden;
-    margin-left: 23%;
-    font-size: 1.5em;
+    margin-left: -25px;
+    font-size: 1.4em;
 }
 
 .content_menu div {
-    display: block;
+    text-align: center;
+    display: inline-block;
     border-bottom: 1px dashed #DDDDDD;
 }
 
@@ -97,7 +98,7 @@ h2 {
 .content_menu li a:visited {
     list-style-type: none;
     text-decoration: none;
-    display: block; 
+    display: inline-block; 
     color: #555555;
 }
 
@@ -271,12 +272,13 @@ p { line-height: 1.5 }
     background-color: #fff;
     text-align: center; 
     overflow: hidden;
-   margin-left: 25%;
-   font-size: 1.5em;
+  margin-left: -05px;
+   font-size: 1.4em;
+
 }
 
 .content_menu2 div {
-    display: block;
+    display: inline-block;
     border-bottom: 1px dashed #DDDDDD;
 }
 
@@ -308,7 +310,7 @@ p { line-height: 1.5 }
 .content_menu2 li a:visited {
     list-style-type: none;
     text-decoration: none;
-    display: block; 
+    display: inline-block; 
     color: #555555;
 }
 
