@@ -231,9 +231,11 @@ li {
 
 
 #footer {
-        margin: 20px auto 0 20px;
+        margin: 40px auto 0 auto;
     text-align: center;
     border-top: dotted 1px gray;
+    margin-right: auto;
+    margin-left: auto;
     padding: 20px 0 20px 0;
     width: 70%;
 }
