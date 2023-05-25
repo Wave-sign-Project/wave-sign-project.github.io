@@ -59,7 +59,7 @@ h2 {
     overflow:hidden;
     background-color: #fff;
     text-align: center; 
-    margin-left: 200px;
+    margin-left: 220px;
 
 }
 
@@ -81,10 +81,12 @@ h2 {
 }
 
 .content_menu li {
+    list-style-type: none;
     float: left;
 
 }
 .content_menu li a {
+    list-style-type: none;
     display: inline-block;
     color: color: #555555;
     text-align: center;
@@ -93,22 +95,23 @@ h2 {
 }
 
 .content_menu li a:visited {
+    list-style-type: none;
     text-decoration: none;
     font-size: 14px;
-    display: block;
-  
+    display: block; 
     color: #555555;
 }
 
 .content_menu li a:active {
+    list-style-type: none;
     text-decoration: none;
     font-size: 14px;
     display: block;
-  
     color: #555555;
 }
 
 .content_menu li a:hover {
+    list-style-type: none;
     text-decoration: none;
     font-size: 14px;
     display: block;
