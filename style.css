@@ -175,7 +175,7 @@ ul {
     margin:1px;
     padding:5px;
     padding-left: 20px; 
-    list-style-image: url(img/bullet_s.svg);
+    list-style-type: circle;
     font-size: 1.2em;
 
 }
@@ -184,7 +184,7 @@ li {
     font-size: 10px;
     margin:0px;
     padding:2px;
-    list-style-image: url(img/bullet_s.svg);
+    list-style-type: circle;
     font-size: .8em;
 }
 
