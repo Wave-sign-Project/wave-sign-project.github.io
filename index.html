@@ -1,164 +1,147 @@
 <html>
-<head>
+  <head>
 
 
 
-<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-<link rel="stylesheet", type="text/css", href="style.css", media="screen" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <link rel="stylesheet", type="text/css", href="style.css", media="screen" />
 
-<body>
-
-
-	<div id="wrap"style="text-align: center;">
-		<div id="top">
-			<img src="logo.jpeg" height="100" width="200">
-		</div>
-	</div>
+    <body>
 
 
-<div id="wrap"style="text-align: center;">
-	<div id="content_sidebar">
-		<div class="content_menu" >
+      <div class="content_menu">
+	<img src="logo.jpeg" height="100" width="200"><br/>
+        <ul class="tab_list">
+	  <li><a href="#content">Home</a></li>
+	  <li><a href="#perf">Performance</a></li>
+	  <li><a href="#spec">Supporting Documentation</a></li>
+	  <li><a href="#implem">Implementation</a></li> 
+	  <li><a href="#KAT">Known Answer Tests - KAT</a></li>
+	  <li><a href="#authors">Authors</a>  </li>
+	  <li><a href="#related_works">Related works</a></li>
+	  <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
 
-			<li><a href="#content">Home</a></li>
-			<li><a href="#perf">Performance</a></li>
-			<li><a href="#spec">Supporting Documentation</a></li>
-			<li><a href="#implem">Implementation</a></li>
+      <div id="content">
+	<h2>About Wave</h2>
+	<p>Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign</p>
 
-	</div>
-</div>
-</div>
-<div id="wrap"style="text-align: center;">
-<div id="content_sidebar">
-		<div class="content_menu2" >
-			<li><a href="#KAT">Known Answer Tests - KAT</a></li>
-			<li><a href="#authors">Authors</a>  </li>
-			<li><a href="#related_works">Related works</a></li>
-			<li><a href="#contact">Contact</a> </li>
-	</div>
-	</div>
-</div>
+	<h2 id="perf">Performance</h2>
 
+	<h2 id="spec">Supporting Documentation</h2>
+	The supporting documentation of Wave can be found
 
+	<h2 id="implem">Implementation</h2>
+	<p> Our code is available in <a href="wave.zip">[.zip]</a> and <a href="wave.bz2">[.bz2]</a> as well as in the git repository: <a href="gitrepo">gitlab</a> </p>
 
+	<h2 id="KAT">Known Answer Tests - KAT</h2>
+	<p> We provide the KAT in 3 different files for each of the instances.</p>
+	<p> Wave822  - <a href="PQCsignKAT_18900.rsp">PQCsignKAT_18900.rsp (700Mb)</a> - Sha256sum: 73dc16ad0cc7ba783772bee8e7bc0e15a19103b577a36f692b624789bebd0bd5 </p>
+	<p> Wave1249 - <a href="PQCsignKAT_27629.rsp">PQCsignKAT_27629.rsp (1.6Gb)</a> - Sha256sum: 61cb78c2c5c4d1a94cd74b5f9ddcb9c03a86204dd4023d4f0403b39ccc543f95 </p>
+	<p> Wave1644 - kat - Sha256sum: 71ca51e22479943e507076e9ad9ac355a46d16ffc942b71f7d46aa4f7a7d128c </p>
 
+	<h2 id="authors">Authors</h2>
 
+	<table class="separation">
 
+	  <tr>
+            <th><ul><li><td align="left"><b>Gustavo Banegas</b><br> Qualcomm, France</td></li></ul> </th>
+             <th><ul><li><td align="left"><b>Pierre Karpman</b><br>University of Grenoble, France</td> </li></ul></th>
+          </tr>
 
-<div id="content">
+	  <tr>
+            <th><ul><li><td align="left"><b>Kévin Carrier</b><br> CY Cergy-Paris University, France</td></li></ul></th>
+            <th><ul><li><td align="left"><b>Johanna Loyer</b><br> Inria, France</td></li></ul></th>
+          </tr>
+          
+          <tr>
+            <th><ul><li><td align="left"><b>André Chailloux</b><br> Inria, France</td></li></ul></th>
+            <th><ul><li><td align="left"><b>Ruben Niederhagen</b><br>Academia Sinica, Taiwan, and University of Southern Denmark, Denmark</td></li></ul></th>
+          </tr>
 
-		<h2>About Wave</h2>
-		<p>Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign Wave is a hash and sign</p>
+	  <tr>
+            <th><ul><li><td align="left"><b>Alain Couvreur</b><br> Inria, France</td></li></ul></th>
+            <th><ul><li><td align="left"><b>Nicolas Sendrier</b><br>Inria, France </td></li></ul></th>
+          </tr>
 
-		<h2 id="perp">Performance</h2>
+	  <tr>
+            <th><ul><li><td align="left"><b>Thomas Debris-Alazard</b><br> Inria, France</td></li></ul></th>
+            <th><ul><li><td align="left"><b>Benjamin Smith</b><br>Inria, France </td></li></ul></th>
+          </tr>
 
-		<h2 id="spec">Supporting Documentation</h2>
-		The supporting documentation of Wave can be found
+	  <tr>
+            <th><ul><li><td align="left"><b>Philippe Gaborit</b><br> University of Limoges, France</td></li></ul></th>
+            <th><ul><li><td align="left"><b>Jean-Pierre Tillich</b><br>Inria, France </td></li></ul></th>
+          </tr>
 
-		<h2 id="implem">Implementation</h2>
-		<p> Our code is available in <a href="wave.zip">[.zip]</a> and <a href="wave.tar.xz">[.tar]</a> as well as in the git repository: <a href="gitrepo">gitlab</a> </p>
-
-		<h2 id="KAT">Known Answer Tests - KAT</h2>
-		<p> We provide the KAT in 3 different files for each of the instances.</p>
-		<p> Wave822  - <a href="https://www.cryptme.eu/pdf/files/PQCsignKAT_18900.rsp">PQCsignKAT_18900.rsp (700Mb)</a> - Sha256sum: 73dc16ad0cc7ba783772bee8e7bc0e15a19103b577a36f692b624789bebd0bd5 </p>
-		<p> Wave1249 - <a href="https://www.cryptme.eu/pdf/files/PQCsignKAT_27629.rsp">PQCsignKAT_27629.rsp (1.6Gb)</a> - Sha256sum: 61cb78c2c5c4d1a94cd74b5f9ddcb9c03a86204dd4023d4f0403b39ccc543f95 </p>
-		<p> Wave1644 - <a href="https://www.cryptme.eu/pdf/files/PQCsignKAT_36359.rsp">PQCsignKAT_36359.rsp (2.7Gb)</a> - Sha256sum: 646cde9cf6e6281811a5733dee250f059a8c1838915cada5367e79a3fbfbf547 </p>
-
-		<h2 id="authors">Authors</h2>
-
-				<table class= separation>
-
-
-			<tr><th> <ul><li> <td align="left"><b>Gustavo Banegas</b><br> Qualcomm, France</td></li></ul> </th><th>
-			<ul><li><td align="left"><b>Pierre Karpman</b><br>University of Grenoble, France</td> </li></ul></th></tr>
-
-			<tr><th><ul><li><td align="left"><b>Kévin Carrier</b><br> CY Cergy-Paris University, France</td></li></ul></th><th>
-			<ul><li><td align="left"><b>Johanna Loyer</b><br> Inria, France</td></li></ul></th></tr>
-
-			<tr><th><ul><li><td align="left"><b>André Chailloux</b><br> Inria, France</td></li></ul></th><th>
-			<ul><li><td align="left"><b>Ruben Niederhagen</b><br>Academia Sinica, Taiwan, and University of Southern Denmark, Denmark</td></li></ul></th></tr >
-
-			<tr><th><ul><li><td align="left"><b>Alain Couvreur</b><br> Inria, France</td></li></ul></th><th>
-			<ul><li><td align="left"><b>Nicolas Sendrier</b><br>Inria, France </td></li></ul></th></tr >
-
-			<tr><th><ul><li><td align="left"><b>Thomas Debris-Alazard</b><br> Inria, France</td></li></ul></th><th>
-			<ul><li><td align="left"><b>Benjamin Smith</b><br>Inria, France </td></li></ul></th></tr >
-
-			<tr><th><ul><li><td align="left"><b>Philippe Gaborit</b><br> University of Limoges, France</td></li></ul></th><th>
-			<ul><li><td align="left"><b>Jean-Pierre Tillich</b><br>Inria, France </td></li></ul></th></th></tr>
-
-		</table>
+        </table>
 
 
-		<h2 id="related_works">Related works</h2>
-		<ul>
+        <h2 id="related_works">Related works</h2>
+        <ul>
 
-						<li>
-				Nicolas Sendrier <br>
-				<i>	<a href = "https://eprint.iacr.org/2023/588">Wave Parameter Selection
-				</a>
-				<br>
-				</i>
-				<br>
+          <li>
+            Nicolas Sendrier <br>
+            <i>	<a href = "https://eprint.iacr.org/2023/588">Wave Parameter Selection
+              </a>
+              <br>
+            </i>
+            <br>
 
-		</li>
+          </li>
 
-				<li>
-				Gustavo Banegas, Thomas Debris-Alazard, Milena Nedeljković and Benjamin Smith <br>
-				<i>	<a href = "https://eprint.iacr.org/2021/1432">Wavelet: code-based postquantum signatures with fast verification on microcontrollers
-				</a>
-				<br>
-				</i>
-				<br>
+          <li>
+            Gustavo Banegas, Thomas Debris-Alazard, Milena Nedeljković and Benjamin Smith <br>
+            <i>	<a href = "https://eprint.iacr.org/2021/1432">Wavelet: code-based postquantum signatures with fast verification on microcontrollers
+              </a>
+              <br>
+            </i>
+            <br>
 
-		</li>
+          </li>
 
-		<li>
-				André Chailloux and Thomas Debris-Alazard <br>
-				<i>	<a href = "https://eprint.iacr.org/2020/006">Tight and optimal reductions for signatures based on average trapdoor preimage sampleable functions and applications to code-based signatures</a>
-				<br>
-			</i>
-				<br>
+          <li>
+            André Chailloux and Thomas Debris-Alazard <br>
+            <i>	<a href = "https://eprint.iacr.org/2020/006">Tight and optimal reductions for signatures based on average trapdoor preimage sampleable functions and applications to code-based signatures</a>
+              <br>
+            </i>
+            <br>
 
-		</li>
+          </li>
 
-		<li>
-				Thomas Debris-Alazard, Nicolas Sendrier and Jean-Pierre Tillich <br>
-				<i>	<a href = "https://eprint.iacr.org/2018/996">Wave: a new family of trapdoor one-way preimage sampleable functions based on codes</a>
-				<br>
-				</i>
-				<br>
+          <li>
+            Thomas Debris-Alazard, Nicolas Sendrier and Jean-Pierre Tillich <br>
+            <i>	<a href = "https://eprint.iacr.org/2018/996">Wave: a new family of trapdoor one-way preimage sampleable functions based on codes</a>
+              <br>
+            </i>
+            <br>
 
-		</li>
+          </li>
 
-		<li>
-				Rémi Bricout, André Chailloux, Thomas Debris-Alazard and Matthieu Lequesne <br>
-				<i>	<a href = "https://eprint.iacr.org/2019/304">Ternary syndrome decoding with large weights</a>
-				<br>
-				</i>
-
-
-		</li>
-
-	</ul>
-
-		<h2 id="contact">Contact</h2>
-		<p>The Wave team can be contacted through the following email: <a href="mailto:wave-contact@inria.fr">wave@contact</a>.</p>
-                <p>Postal Address:</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Thomas Debris-Alazard</br>
-&nbsp;&nbsp;&nbsp;&nbsp;Inria Saclay</br>
-&nbsp;&nbsp;&nbsp;&nbsp;1 Rue Honoré d'Estienne d'Orves, 91120 Palaiseau, France.</br>
-</p>
-
-</div>
-
-<div id="wrap"style="text-align: center;">
-		<div id="bottom">
-	<img src="wave.png" height="20" width="40">
-</div>
-</div>
+          <li>
+            Rémi Bricout, André Chailloux, Thomas Debris-Alazard and Matthieu Lequesne <br>
+            <i>	<a href = "https://eprint.iacr.org/2019/304">Ternary syndrome decoding with large weights</a>
+              <br>
+            </i>
 
 
-</body>
+          </li>
 
+        </ul>
+
+        <h2 id="contact">Contact</h2>
+        <p>The Wave team can be contacted through the following email: <a href="mailto:wave-contact@inria.fr">wave@contact</a>.</p>
+        <p>Postal Address:</br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Thomas Debris-Alazard</br>
+          &nbsp;&nbsp;&nbsp;&nbsp;Inria Saclay</br>
+          &nbsp;&nbsp;&nbsp;&nbsp;1 Rue Honoré d'Estienne d'Orves, 91120 Palaiseau, France.</br>
+        </p>
+
+      </div>
+
+    </body>
+    <div id="bottom">
+      <img src="wave.png" height="20" width="40">
+    </div>
 </html>
