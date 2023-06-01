@@ -180,7 +180,9 @@ table{
     width: auto;
     padding: 10px;
   }
+}
 
+@media (max-width: 800px) {
   .columns {
     grid-template-columns: 100%;
   }
