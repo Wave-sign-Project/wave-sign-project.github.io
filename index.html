@@ -32,6 +32,86 @@
       <p>Wave is a post-quantum signature scheme based on hard problems in coding theory.</p>
 
       <h2 id="perf">Performance</h2>
+      <p>Signature length and verification speed results for Wave instances. Timings count millions of cycles used on average by the (non-optimized) reference implementation, running on an Intel Core i5-1135G7 platform at 2.40GHz. See the Supporting Documentation for more detailed figures.</p>
+      <style>
+          table {
+              border-collapse: collapse;
+              width: 100%;
+          }
+
+          th, td {
+              border: 1px solid black;
+              padding: 8px;
+              text-align: left;
+          }
+
+          th {
+              background-color: #f2f2f2;
+          }
+      </style>
+
+      <table>
+          <thead>
+              <tr>
+                  <th>Wave instance</th>
+                  <th>Wave[822]</th>
+                  <th>Wave[1249]</th>
+                  <th>Wave[1644]</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Post-quantum security target</td>
+                  <td>Level I</td>
+                  <td>Level III</td>
+                  <td>Level V</td>
+              </tr>
+              <tr>
+                  <td><strong>Signature length<sup>1</sup> (Bytes)</strong></td>
+                  <td><strong>822</strong></td>
+                  <td><strong>1249</strong></td>
+                  <td><strong>1644</strong></td>
+              </tr>
+              <tr>
+                  <td>Public key size (Bytes)</td>
+                  <td>3,677,390</td>
+                  <td>7,867,598</td>
+                  <td>13,632,308</td>
+              </tr>
+              <tr>
+                  <td>Key generation (MCycles)</td>
+                  <td>14,468</td>
+                  <td>47,222</td>
+                  <td>108,642</td>
+              </tr>
+              <tr>
+                  <td>Signing (MCycles)</td>
+                  <td>1,161</td>
+                  <td>3,507</td>
+                  <td>7,397</td>
+              </tr>
+              <tr>
+                  <td><strong>Verification (MCycles)</strong></td>
+                  <td><strong>205.8</strong></td>
+                  <td><strong>464.1</strong></td>
+                  <td><strong>813.3</strong></td>
+              </tr>
+              <tr>
+                  <td><strong>Verification<sup>2</sup> (MCycles)</strong></td>
+                  <td><strong>1.231</strong></td>
+                  <td><strong>2.580</strong></td>
+                  <td><strong>4.329</strong></td>
+              </tr>
+          </tbody>
+          <tfoot>
+              <tr>
+                  <td colspan="4">
+                      <sup>1</sup>Signatures are compressed to variable-length byte arrays, which may in fact be shorter than this bound.<br>
+                      <sup>2</sup>Verification where the public key is pre-loaded in bitsliced format, and does not require conversion from the transport format: see <a href="#sec:perf">§2</a> for details.
+                  </td>
+              </tr>
+          </tfoot>
+      </table>
 
       <h2 id="spec">Supporting Documentation</h2>
       The supporting documentation of Wave can be found <a href="wave_documentation.pdf">here</a>.
