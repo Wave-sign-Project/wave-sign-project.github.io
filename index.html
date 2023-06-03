@@ -33,24 +33,9 @@
 
       <h2 id="perf">Performance</h2>
       <p>Signature length and verification speed results for Wave instances. Timings count millions of cycles used on average by the (non-optimized) reference implementation, running on an Intel Core i5-1135G7 platform at 2.40GHz. See the Supporting Documentation for more detailed figures.</p>
-      <style>
-          table {
-              border-collapse: collapse;
-              width: 100%;
-          }
 
-          th, td {
-              border: 1px solid black;
-              padding: 8px;
-              text-align: left;
-          }
-
-          th {
-              background-color: #f2f2f2;
-          }
-      </style>
-
-      <table>
+      <div style="overflow-x:auto; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black">
+        <table cellpadding="0" cellspacing="0">
           <thead>
               <tr>
                   <th>Wave instance</th>
@@ -103,15 +88,13 @@
                   <td><strong>4.329</strong></td>
               </tr>
           </tbody>
-          <tfoot>
-              <tr>
-                  <td colspan="4">
-                      <sup>1</sup>Signatures are compressed to variable-length byte arrays, which may in fact be shorter than this bound.<br>
-                      <sup>2</sup>Verification where the public key is pre-loaded in bitsliced format, and does not require conversion from the transport format.
-                  </td>
-              </tr>
-          </tfoot>
-      </table>
+        </table>
+      </div>
+
+      <div style="border-left: 1px solid black; border-right: 1px solid black; border-bottom: 1px solid black; padding:8pt">
+        <sup>1</sup>Signatures are compressed to variable-length byte arrays, which may in fact be shorter than this bound.<br>
+        <sup>2</sup>Verification where the public key is pre-loaded in bitsliced format, and does not require conversion from the transport format.
+      </div>
 
       <h2 id="spec">Supporting Documentation</h2>
       The supporting documentation of Wave can be found <a href="wave_documentation.pdf">here</a>.
